@@ -303,7 +303,8 @@
 
 .main__btn {
     font-size: 1.8rem;
-    padding: 20px 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border: none;
     border-radius: 4px;
     background-color: #914848;
@@ -316,13 +317,14 @@
 }
 
 .main__btn a {
+    padding: 20px 40px;
     position: relative;
     z-index: 2;
     color: #fff;
     text-decoration: none;
 }
 
-.main__btn:after {
+.hero__container .main__btn:after {
     position: absolute;
     content: '';
     top: 0;
@@ -442,7 +444,7 @@ img {
 }
 
 .terminal {
-    background-color: #4C5364;
+    background-color: #4f5a72;
     padding: 5rem 0;
     
 }
@@ -525,4 +527,107 @@ p {
 
 .linker__btn:hover {
     text-decoration: underline;
+}
+
+/* projects section */
+
+.projects {
+    background-color: #eeeeea;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects__wrapper {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1050px;
+    margin: 0 auto;
+    height: 67rem;
+}
+
+.projects__header {
+    font-family: 'Sarala', sans-serif;
+    font-size: 60px;
+    color:rgb(33, 39, 48);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.projects__row {
+    clear: both;
+}
+
+.projects__card {
+    margin: 20px 10px;
+    width: 500px;
+    height: 500px;
+    border-radius: 0px;
+    background-color: #fff;
+    align-items: left;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__card h2 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.projects__card h2 span {
+    font-family: 'Sarala', sans-serif;
+}
+
+.projects__card img {
+    width: 500px;
+    margin-top: 0px;
+}
+
+.projects__button {
+    text-align: center;
+    justify-content: center;
+}
+
+.projects__button button {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.projects__button .main__btn {
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.projects__button .main__btn a {
+    font-size: 13px;
+    font-family: 'Sarala', sans-serif;
+    padding: 10px 104px;
+    display: block;
+}
+
+.projects__button .main__btn:hover {
+    background: #722929;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1030px) {
+    .projects__wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        max-width: 1050px;
+        margin: 0 auto;
+        height: 67rem;
+    }
+
+    .projects__header {
+        font-size: 46px;
+    }
 }
