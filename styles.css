@@ -507,18 +507,17 @@ img {
 }
 
 .console {
-    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     color: #fff;
 }
 
 p {
-    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-family: Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     margin-left: 20px;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .linker__btn {
-    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-family: Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     color: rgb(37, 37, 211); 
     font-size: 14px;
     margin-left: 20px;
@@ -624,7 +623,7 @@ p {
         grid-template-rows: 1fr;
         max-width: 1050px;
         margin: 0 auto;
-        height: 67rem;
+        height: 129rem;
     }
 
     .projects__header {
