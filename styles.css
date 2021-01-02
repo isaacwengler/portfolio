@@ -402,24 +402,38 @@ p {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 480px) {
+    .terminal__menu {
+        width: 90%;
+    }
+
+    .terminal__screen {
+        width: 90%;
+        padding: 20px 0px;
+    }
+}
+
 /* projects section */
 
 .projects {
-    background-color: #eeeeea;
+    background-color: #dfcdcf;
     display: flex;
     flex-direction: column;
     padding: 4rem 0;
+    padding-bottom: 8rem;
     justify-content: center;
     align-items: center;
 }
 
 .projects__wrapper {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1050px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    max-width: 1400px;
     margin: 0 auto;
-    height: 67rem;
+    padding: 0 5rem;
 }
 
 .projects__header {
@@ -435,16 +449,15 @@ p {
 }
 
 .projects__card {
-    margin: 20px 10px;
-    width: 500px;
-    height: 500px;
-    border-radius: 0px;
     background-color: #fff;
-    align-items: left;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 700px;
+    padding: 0px;
+    padding-bottom: 10px;
+    align-self: center;
 }
+
 
 .projects__card h2 {
     font-size: 14px;
@@ -458,30 +471,28 @@ p {
 }
 
 .projects__card img {
-    width: 500px;
+    width: 100%;
+    max-width: 700px;
     margin-top: 0px;
 }
 
 .projects__button {
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
-.projects__button button {
-    font-size: 16px;
-    margin-top: 10px;
-}
 
 .projects__button .main__btn {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.projects__button .main__btn a {
-    font-size: 13px;
+    color: white;
+    font-size: 14px;
     font-family: 'Sarala', sans-serif;
-    padding: 10px 104px;
-    display: block; 
+    width: 45%;
+    padding: 15px 0;
+    display: inline-block; 
+    text-decoration: none;
+    margin: 0 5px; 
+    margin-top: 10px;
 }
 
 .projects__button .main__btn:hover {
@@ -494,9 +505,8 @@ p {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        max-width: 1050px;
+        max-width: 1400px;
         margin: 0 auto;
-        height: 129rem;
     }
 
     .projects__header {
@@ -504,9 +514,15 @@ p {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .projects__wrapper {
+        padding: 0 10px;
+    }
+}
+
 .footer {
     background-color: #4f5a72;
-    padding: 4rem 0;
+    padding: 4rem 5rem;
     align-items: center;
     justify-content: center;
 }
@@ -535,12 +551,8 @@ p {
    padding-left: 15px;
 }
 
-@media screen and (max-width: 1030px) {
-    .footer__container {
-        max-width: 500px;
-    }
-
-    .footer__container span {
-        margin-right: 0px;
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 4rem 10px;
     }
 }
