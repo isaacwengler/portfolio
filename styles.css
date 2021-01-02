@@ -166,7 +166,7 @@
     }
 
     .navbar__btn {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 
     .button {
@@ -174,7 +174,7 @@
         justify-content: center;
         align-items: center;
         width: 80%;
-        height: 80px;
+        height: 60px;
         margin: 0;
         opacity: 1;
     }
@@ -201,6 +201,22 @@
 
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar__btn {
+        padding: 1 .5rem;
+    }
+
+
+    .navbar__item {
+        height: 60px;
+    }
+    
+    .navbar__menu.active {
+        height: 30rem;
+        font-size: 1rem;
     }
 }
 
