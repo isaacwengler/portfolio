@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -216,7 +215,7 @@
     
     .navbar__menu.active {
         height: 30rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
