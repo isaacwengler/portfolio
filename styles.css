@@ -224,7 +224,7 @@
 
 .hero {  
     background: #4f5a72;
-    background-image: url(stl1small.jpeg);
+    background-image: url(images/stl1small.jpeg);
     opacity: 1;
     height: 800px;
     background-attachment: fixed;
@@ -327,7 +327,7 @@
 
 @media screen and (max-width: 480px) {
     .hero {
-        background-image: url(stl.jpeg);
+        background-image: url(images/stl.jpeg);
         background-attachment: scroll;
     }
     

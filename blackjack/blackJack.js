@@ -1,20 +1,3 @@
-<html>
-<title>
-	Blackjack
-</title>
-
-<body bgcolor='black'>
-
-<center>
-
-text <br> text <br> text <br>
-
-<canvas id="gameCanvas" width="800" height="600"> 
-</canvas>
-
-</center>
-
-<script>
 
 var framesPerSecond = 30; 
 
@@ -651,11 +634,3 @@ if (e.keyCode == '80'){
 
 
 }
-
-
-
-
-</script>
-
-</body>
-</html>
