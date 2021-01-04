@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald:wght@500&display=swap');
 
 *{  
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -96,12 +95,14 @@
 
 .navbar__links:hover {
     font-weight: bolder;
+    color: rgb(249, 253, 191);
     /*color: #9518fc;*/
     transition: all 0.3s ease;
 }
 
 .button:hover {
     background: #722929;
+    color: rgb(249, 253, 191);
     transition: all 0.3s ease;
 }
 
@@ -222,9 +223,8 @@
 /* Home page section */
 
 .hero {  
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
-    background-image: url(mountains.jpeg);
+    background: #4f5a72;
+    background-image: url(stl1small.jpeg);
     opacity: 1;
     height: 800px;
     background-attachment: fixed;
@@ -251,7 +251,7 @@
     margin-bottom: 0px;
     color: #fff;
     z-index: 1;
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .hero__description {
@@ -326,9 +326,21 @@
 
 
 @media screen and (max-width: 480px) {
+    .hero {
+        background-image: url(stl.jpeg);
+    }
+    
     .main__btn {
         padding: 12px 36px;
-        margin: 2.5rem 0;
+        margin: 1rem 0;
+    }
+
+    .hero__heading {
+        font-size: 50px;
+    }
+
+    .hero__description {
+        width: 80%;
     }
 }
 
@@ -452,7 +464,7 @@ p {
 }
 
 .projects__header {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 60px;
     color:rgb(33, 39, 48);
     text-align: center;
@@ -482,7 +494,7 @@ p {
 }
 
 .projects__card h2 span {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .projects__card img {
@@ -501,7 +513,7 @@ p {
 .projects__button .main__btn {
     color: white;
     font-size: 14px;
-    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
     width: 45%;
     padding: 15px 0;
     display: inline-block; 
