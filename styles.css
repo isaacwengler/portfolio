@@ -485,6 +485,7 @@ p {
     padding: 0px;
     padding-bottom: 10px;
     align-self: center;
+    border-radius: 5px;
 }
 
 
@@ -503,6 +504,8 @@ p {
     width: 100%;
     max-width: 700px;
     margin-top: 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .projects__button {
