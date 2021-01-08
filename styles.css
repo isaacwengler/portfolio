@@ -500,7 +500,7 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-.projects__card img {
+.projects__card .img4 {
     width: 100%;
     max-width: 700px;
     margin-top: 0px;
