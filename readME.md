@@ -1,11 +1,1 @@
-Portfolio static website to display projects and skills
-
-What I learned:
-
-Making a website with JavaScript, HTML, CSS
-
-Git and Github
-
-AWS hosting
-
-
+ This is a stactic website made usting HTML, CSS, and JavaScript. I made this to better understand HTML/CSS and how to integrate JavaScript. During this, I also learned how to use git version control, securing with SSL, as well as AWS hosting. The site was made to be mobile reponsive. Additionally I implemnted smooth scroll though JavaScript. Throughout this project, I was introduced to front-end web development and UI/UX elements. My favorite feature of this is in the about section, where there is a lookalike terminal.
